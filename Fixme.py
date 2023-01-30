@@ -43,7 +43,7 @@ def threes(n):
     all_numbers = list(range(n+1))
 
     def contain3(n):
-        if '3'in str(n):
+        if '3' in str(n):
             return True
         else:
             return False
